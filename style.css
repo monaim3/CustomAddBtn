@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20)
+}
+.logo img {
+    width: 6rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.main-div h1 {
+    color: #fff;
+    text-align: center;
+}
+.main-div span{
+    color: #ddd;
+}
+.btn:nth-child(1){
+    background-image: url('img/user1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:nth-child(2){
+    background-image: url('img/user2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:nth-child(3){
+    background-image: url('img/user3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:nth-child(4){
+    background-image: url('img/react.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:nth-child(5){
+    background-image: url('img/7725621_New\ Project\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:nth-child(5){
+    background-image: url('img/user3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn {
+    padding: 3.5rem;
+    margin-left: 0.5rem;
+}
+.innerDiv{
+    margin-left:0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add {
+    background-color: transparent;
+    margin-left: 0.5rem;
+    position: relative;
+    border: none;
+}
+.add span {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.fa-plus-circle {
+    font-size: 7.5vw;
+    color: grey;
+    opacity: 0.8;
+}
+.innerDiv .btn{
+    position: relative;
+    cursor: pointer;
+    max-width: 20rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+}
+.innerDiv .btn span, .add span {
+    position: absolute;
+    bottom: -24%;
+    left: 28%;
+}
+.profile{
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 17%;
+}
